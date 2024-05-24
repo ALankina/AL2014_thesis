@@ -1,0 +1,40 @@
+2023-12-07 11:21:01,172 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2023-12-07 11:21:24,128 non-fasta/a3m file in input directory: error
+2023-12-07 11:21:24,128 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2023-12-07 11:21:24,129 non-fasta/a3m file in input directory: out
+2023-12-07 11:21:24,129 non-fasta/a3m file in input directory: run.sh
+2023-12-07 11:21:24,129 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2023-12-07 11:22:26,236 Found 5 citations for tools or databases
+2023-12-07 11:22:50,273 Query 1/1: HSV1_gH_gD (length 1232)
+2023-12-07 11:22:51,257 Sleeping for 8s. Reason: PENDING
+2023-12-07 11:23:00,157 Sleeping for 9s. Reason: RUNNING
+2023-12-07 11:23:10,183 Sleeping for 6s. Reason: RUNNING
+2023-12-07 11:23:17,243 Sleeping for 8s. Reason: RUNNING
+2023-12-07 11:23:26,130 Sleeping for 6s. Reason: RUNNING
+2023-12-07 11:23:33,318 Sleeping for 7s. Reason: RUNNING
+2023-12-07 11:23:41,179 Sleeping for 8s. Reason: RUNNING
+2023-12-07 11:23:50,093 Sleeping for 10s. Reason: RUNNING
+2023-12-07 11:24:01,263 Sleeping for 7s. Reason: RUNNING
+2023-12-07 11:24:09,156 Sleeping for 6s. Reason: RUNNING
+2023-12-07 11:24:16,086 Sleeping for 10s. Reason: RUNNING
+2023-12-07 11:24:29,227 Sleeping for 10s. Reason: PENDING
+2023-12-07 11:24:40,301 Sleeping for 5s. Reason: RUNNING
+2023-12-07 11:24:46,181 Sleeping for 10s. Reason: RUNNING
+2023-12-07 11:24:57,102 Sleeping for 10s. Reason: RUNNING
+2023-12-07 11:25:08,081 Sleeping for 6s. Reason: RUNNING
+2023-12-07 11:25:14,948 Sleeping for 10s. Reason: RUNNING
+2023-12-07 11:25:25,800 Sleeping for 9s. Reason: RUNNING
+2023-12-07 11:25:35,643 Sleeping for 9s. Reason: RUNNING
+2023-12-07 11:25:45,522 Sleeping for 9s. Reason: RUNNING
+2023-12-07 11:25:55,358 Sleeping for 6s. Reason: RUNNING
+2023-12-07 11:26:02,210 Sleeping for 8s. Reason: RUNNING
+2023-12-07 11:26:11,095 Sleeping for 8s. Reason: RUNNING
+2023-12-07 11:26:21,168 Running model_3
+2023-12-07 11:51:08,217 model_3 took 1487.0s (3 recycles) with pLDDT 67.7, ptmscore 0.608 and iptm 0.226
+2023-12-07 12:00:50,471 Running model_4
+2023-12-07 12:24:48,549 model_4 took 1438.1s (3 recycles) with pLDDT 69.1, ptmscore 0.637 and iptm 0.306
+2023-12-07 12:25:06,362 Running model_5
+2023-12-07 12:48:51,873 model_5 took 1425.5s (3 recycles) with pLDDT 68.2, ptmscore 0.613 and iptm 0.241
+2023-12-07 12:49:09,710 Running model_1
+2023-12-07 13:12:57,297 model_1 took 1427.6s (3 recycles) with pLDDT 69.4, ptmscore 0.593 and iptm 0.209
+2023-12-07 13:13:16,761 Running model_2
