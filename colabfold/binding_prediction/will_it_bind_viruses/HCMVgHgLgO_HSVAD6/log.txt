@@ -1,0 +1,127 @@
+2024-05-24 17:05:29,724 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-05-24 17:06:01,676 non-fasta/a3m file in input directory: error
+2024-05-24 17:06:01,677 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-05-24 17:06:01,677 non-fasta/a3m file in input directory: out
+2024-05-24 17:06:01,677 non-fasta/a3m file in input directory: run.sh
+2024-05-24 17:06:01,677 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-05-24 17:07:43,019 Found 5 citations for tools or databases
+2024-05-24 17:08:50,300 Query 1/1: HCMVgHgLgO_HSVAD6 (length 1539)
+2024-05-24 17:08:51,287 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:08:58,353 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:09:09,207 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:09:17,063 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:09:22,922 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:09:29,840 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:09:39,717 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:09:47,602 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:09:53,486 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:10:01,335 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:10:11,204 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:10:19,136 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:10:29,006 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:10:34,931 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:10:40,799 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:10:49,692 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:11:00,846 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:11:11,696 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:11:21,555 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:11:29,434 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:11:39,314 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:11:50,175 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:11:59,053 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:12:08,934 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:12:19,784 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:12:29,680 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:12:39,554 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:12:46,430 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:12:53,297 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:13:02,166 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:13:09,216 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:13:15,097 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:13:20,936 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:13:28,806 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:13:37,715 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:13:46,567 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:13:57,459 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:14:03,712 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:14:14,575 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:14:20,447 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:14:30,413 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:14:39,452 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:14:50,326 Sleeping for 5s. Reason: RATELIMIT
+2024-05-24 17:14:56,215 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:15:04,072 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:15:14,962 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:15:25,846 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:15:33,741 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:15:41,599 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:15:51,476 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:16:02,396 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:16:09,258 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:16:20,145 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:16:28,180 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:16:36,072 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:16:46,009 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:16:56,874 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:17:07,738 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:17:14,645 Sleeping for 6s. Reason: RATELIMIT
+2024-05-24 17:17:21,561 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:17:30,409 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:17:40,261 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:17:48,107 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:17:55,985 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:18:05,828 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:18:14,680 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:18:23,561 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:18:33,422 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:18:41,288 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:18:52,169 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:19:01,101 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:19:12,019 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:19:19,880 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:19:30,748 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:19:40,607 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:19:51,498 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:20:02,377 Sleeping for 8s. Reason: RATELIMIT
+2024-05-24 17:20:11,228 Sleeping for 10s. Reason: RATELIMIT
+2024-05-24 17:20:22,139 Sleeping for 9s. Reason: RATELIMIT
+2024-05-24 17:20:32,005 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:20:39,869 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:20:47,992 Sleeping for 7s. Reason: RATELIMIT
+2024-05-24 17:20:55,864 Sleeping for 9s. Reason: PENDING
+2024-05-24 17:21:05,728 Sleeping for 5s. Reason: RUNNING
+2024-05-24 17:21:11,608 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:21:18,504 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:21:25,379 Sleeping for 8s. Reason: RUNNING
+2024-05-24 17:21:34,246 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:21:41,101 Sleeping for 5s. Reason: RUNNING
+2024-05-24 17:21:46,974 Sleeping for 9s. Reason: RUNNING
+2024-05-24 17:21:56,873 Sleeping for 8s. Reason: RUNNING
+2024-05-24 17:22:05,738 Sleeping for 9s. Reason: RUNNING
+2024-05-24 17:22:15,627 Sleeping for 5s. Reason: RUNNING
+2024-05-24 17:22:21,487 Sleeping for 7s. Reason: RUNNING
+2024-05-24 17:22:29,359 Sleeping for 7s. Reason: RUNNING
+2024-05-24 17:22:37,230 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:22:44,084 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:22:50,952 Sleeping for 9s. Reason: RUNNING
+2024-05-24 17:23:00,799 Sleeping for 5s. Reason: RUNNING
+2024-05-24 17:23:06,648 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:23:13,501 Sleeping for 5s. Reason: RUNNING
+2024-05-24 17:23:19,365 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:23:26,230 Sleeping for 6s. Reason: RUNNING
+2024-05-24 17:23:35,349 Sleeping for 8s. Reason: PENDING
+2024-05-24 17:23:44,213 Sleeping for 9s. Reason: RUNNING
+2024-05-24 17:23:54,141 Sleeping for 9s. Reason: RUNNING
+2024-05-24 17:24:04,002 Sleeping for 8s. Reason: RUNNING
+2024-05-24 17:24:14,322 Running model_3
+2024-05-24 17:34:36,567 model_3 took 622.2s (3 recycles) with pLDDT 60.5, ptmscore 0.586 and iptm 0.494
+2024-05-24 17:44:15,546 Running model_4
+2024-05-24 17:54:10,742 model_4 took 595.2s (3 recycles) with pLDDT 58.2, ptmscore 0.547 and iptm 0.437
+2024-05-24 17:54:21,514 Running model_5
+2024-05-24 18:04:21,075 model_5 took 599.6s (3 recycles) with pLDDT 57.3, ptmscore 0.562 and iptm 0.46
+2024-05-24 18:04:31,272 Running model_1
+2024-05-24 18:14:32,427 model_1 took 601.2s (3 recycles) with pLDDT 61.2, ptmscore 0.571 and iptm 0.467
+2024-05-24 18:15:05,914 Running model_2
+2024-05-24 18:25:10,073 model_2 took 604.2s (3 recycles) with pLDDT 56.2, ptmscore 0.558 and iptm 0.46
+2024-05-24 18:25:34,874 reranking models by multimer
+2024-05-24 18:25:57,517 Done
