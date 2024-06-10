@@ -1,0 +1,46 @@
+2024-06-04 20:39:58,376 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-04 20:43:49,292 non-fasta/a3m file in input directory: error
+2024-06-04 20:43:49,293 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-04 20:43:49,293 non-fasta/a3m file in input directory: out
+2024-06-04 20:43:49,293 non-fasta/a3m file in input directory: run.sh
+2024-06-04 20:43:49,294 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-04 20:49:37,496 Found 5 citations for tools or databases
+2024-06-04 20:51:44,861 Query 1/1: DCSIGN_HCMVAD6 (length 454)
+2024-06-04 20:51:47,006 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 20:51:55,944 Sleeping for 7s. Reason: RATELIMIT
+2024-06-04 20:52:03,801 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 20:52:12,655 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 20:52:21,518 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 20:52:28,397 Sleeping for 9s. Reason: RATELIMIT
+2024-06-04 20:52:38,245 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 20:52:44,109 Sleeping for 7s. Reason: RATELIMIT
+2024-06-04 20:52:52,061 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 20:53:02,922 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 20:53:08,775 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 20:53:19,641 Sleeping for 9s. Reason: PENDING
+2024-06-04 20:53:29,515 Sleeping for 8s. Reason: RUNNING
+2024-06-04 20:53:38,394 Sleeping for 10s. Reason: RUNNING
+2024-06-04 20:53:49,245 Sleeping for 9s. Reason: RUNNING
+2024-06-04 20:53:59,101 Sleeping for 8s. Reason: RUNNING
+2024-06-04 20:54:07,966 Sleeping for 9s. Reason: RUNNING
+2024-06-04 20:54:17,819 Sleeping for 7s. Reason: RUNNING
+2024-06-04 20:54:25,697 Sleeping for 5s. Reason: RUNNING
+2024-06-04 20:54:32,561 Sleeping for 5s. Reason: RUNNING
+2024-06-04 20:54:38,414 Sleeping for 6s. Reason: RUNNING
+2024-06-04 20:54:45,288 Sleeping for 10s. Reason: RUNNING
+2024-06-04 20:55:19,096 Sleeping for 10s. Reason: PENDING
+2024-06-04 20:55:31,541 Sleeping for 8s. Reason: RUNNING
+2024-06-04 20:55:40,415 Sleeping for 6s. Reason: RUNNING
+2024-06-04 20:55:47,266 Sleeping for 10s. Reason: RUNNING
+2024-06-04 20:56:00,602 Running model_3
+2024-06-04 20:57:06,707 model_3 took 66.1s (3 recycles) with pLDDT 51.6, ptmscore 0.376 and iptm 0.0877
+2024-06-04 20:59:17,872 Running model_4
+2024-06-04 20:59:47,955 model_4 took 30.1s (3 recycles) with pLDDT 52.2, ptmscore 0.376 and iptm 0.0946
+2024-06-04 20:59:54,443 Running model_5
+2024-06-04 21:00:24,516 model_5 took 30.1s (3 recycles) with pLDDT 50.9, ptmscore 0.379 and iptm 0.11
+2024-06-04 21:00:29,964 Running model_1
+2024-06-04 21:01:00,012 model_1 took 30.0s (3 recycles) with pLDDT 50.7, ptmscore 0.376 and iptm 0.158
+2024-06-04 21:01:05,556 Running model_2
+2024-06-04 21:01:35,608 model_2 took 30.1s (3 recycles) with pLDDT 51.9, ptmscore 0.395 and iptm 0.159
+2024-06-04 21:01:41,025 reranking models by multimer
+2024-06-04 21:01:44,868 Done

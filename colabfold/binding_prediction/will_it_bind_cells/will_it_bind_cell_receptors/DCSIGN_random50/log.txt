@@ -1,0 +1,69 @@
+2024-06-04 22:07:22,676 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-04 22:07:58,315 non-fasta/a3m file in input directory: error
+2024-06-04 22:07:58,315 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-04 22:07:58,316 non-fasta/a3m file in input directory: out
+2024-06-04 22:07:58,316 non-fasta/a3m file in input directory: run.sh
+2024-06-04 22:07:58,316 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-04 22:09:35,840 Found 5 citations for tools or databases
+2024-06-04 22:10:47,621 Query 1/1: DCSIGN_random50 (length 454)
+2024-06-04 22:10:48,551 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 22:10:57,398 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:11:03,252 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:11:14,101 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 22:11:20,985 Sleeping for 7s. Reason: RATELIMIT
+2024-06-04 22:11:28,855 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:11:35,760 Sleeping for 9s. Reason: RATELIMIT
+2024-06-04 22:11:45,680 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:11:57,312 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 22:12:04,237 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:12:15,116 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:12:26,005 Sleeping for 9s. Reason: RATELIMIT
+2024-06-04 22:12:35,915 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 22:12:42,784 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 22:12:51,646 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 22:12:58,553 Sleeping for 7s. Reason: RATELIMIT
+2024-06-04 22:13:06,767 Sleeping for 8s. Reason: RATELIMIT
+2024-06-04 22:13:15,620 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:13:21,476 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:13:27,350 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:13:33,221 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:13:44,097 Sleeping for 10s. Reason: RATELIMIT
+2024-06-04 22:13:54,967 Sleeping for 9s. Reason: RATELIMIT
+2024-06-04 22:14:04,844 Sleeping for 6s. Reason: RATELIMIT
+2024-06-04 22:14:11,697 Sleeping for 5s. Reason: RATELIMIT
+2024-06-04 22:14:18,577 Sleeping for 5s. Reason: PENDING
+2024-06-04 22:14:24,457 Sleeping for 10s. Reason: RUNNING
+2024-06-04 22:14:35,732 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:14:42,235 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:14:48,131 Sleeping for 9s. Reason: RUNNING
+2024-06-04 22:14:58,014 Sleeping for 8s. Reason: RUNNING
+2024-06-04 22:15:06,920 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:15:12,787 Sleeping for 6s. Reason: RUNNING
+2024-06-04 22:15:19,994 Sleeping for 7s. Reason: RUNNING
+2024-06-04 22:15:27,897 Sleeping for 10s. Reason: RUNNING
+2024-06-04 22:15:38,807 Sleeping for 9s. Reason: RUNNING
+2024-06-04 22:15:48,673 Sleeping for 7s. Reason: RUNNING
+2024-06-04 22:15:57,543 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:16:03,432 Sleeping for 10s. Reason: RUNNING
+2024-06-04 22:16:14,814 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:16:20,686 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:16:26,567 Sleeping for 10s. Reason: RUNNING
+2024-06-04 22:16:41,295 Sleeping for 6s. Reason: PENDING
+2024-06-04 22:16:48,182 Sleeping for 9s. Reason: PENDING
+2024-06-04 22:16:58,055 Sleeping for 5s. Reason: RUNNING
+2024-06-04 22:17:03,918 Sleeping for 7s. Reason: RUNNING
+2024-06-04 22:17:11,802 Sleeping for 10s. Reason: RUNNING
+2024-06-04 22:17:22,671 Sleeping for 9s. Reason: RUNNING
+2024-06-04 22:17:32,548 Sleeping for 6s. Reason: RUNNING
+2024-06-04 22:17:41,310 Running model_3
+2024-06-04 22:18:24,711 model_3 took 43.4s (3 recycles) with pLDDT 50.7, ptmscore 0.384 and iptm 0.132
+2024-06-04 22:20:32,879 Running model_4
+2024-06-04 22:20:52,777 model_4 took 19.9s (3 recycles) with pLDDT 53, ptmscore 0.381 and iptm 0.066
+2024-06-04 22:20:55,831 Running model_5
+2024-06-04 22:21:15,704 model_5 took 19.9s (3 recycles) with pLDDT 55.6, ptmscore 0.376 and iptm 0.0912
+2024-06-04 22:21:18,740 Running model_1
+2024-06-04 22:21:38,602 model_1 took 19.9s (3 recycles) with pLDDT 52.3, ptmscore 0.375 and iptm 0.104
+2024-06-04 22:21:41,682 Running model_2
+2024-06-04 22:22:01,550 model_2 took 19.9s (3 recycles) with pLDDT 49.2, ptmscore 0.381 and iptm 0.0956
+2024-06-04 22:22:04,601 reranking models by multimer
+2024-06-04 22:22:06,494 Done

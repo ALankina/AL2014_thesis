@@ -1,0 +1,36 @@
+2024-06-05 17:06:01,059 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-05 17:06:05,048 non-fasta/a3m file in input directory: error
+2024-06-05 17:06:05,049 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-05 17:06:05,050 non-fasta/a3m file in input directory: out
+2024-06-05 17:06:05,050 non-fasta/a3m file in input directory: run.sh
+2024-06-05 17:06:05,050 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-05 17:06:19,887 Found 5 citations for tools or databases
+2024-06-05 17:06:22,486 Query 1/1: LSIGN_HSVAD6 (length 451)
+2024-06-05 17:06:23,362 Sleeping for 10s. Reason: PENDING
+2024-06-05 17:06:34,216 Sleeping for 5s. Reason: RUNNING
+2024-06-05 17:06:40,085 Sleeping for 10s. Reason: RUNNING
+2024-06-05 17:06:50,967 Sleeping for 8s. Reason: RUNNING
+2024-06-05 17:06:59,886 Sleeping for 8s. Reason: RUNNING
+2024-06-05 17:07:08,765 Sleeping for 6s. Reason: RUNNING
+2024-06-05 17:07:15,592 Sleeping for 10s. Reason: RUNNING
+2024-06-05 17:07:26,501 Sleeping for 5s. Reason: RUNNING
+2024-06-05 17:07:32,375 Sleeping for 7s. Reason: RUNNING
+2024-06-05 17:07:40,236 Sleeping for 6s. Reason: RUNNING
+2024-06-05 17:07:47,104 Sleeping for 5s. Reason: RUNNING
+2024-06-05 17:07:56,881 Sleeping for 8s. Reason: PENDING
+2024-06-05 17:08:05,768 Sleeping for 9s. Reason: RUNNING
+2024-06-05 17:08:15,640 Sleeping for 6s. Reason: RUNNING
+2024-06-05 17:08:22,527 Sleeping for 9s. Reason: RUNNING
+2024-06-05 17:08:32,637 Sleeping for 9s. Reason: RUNNING
+2024-06-05 17:08:44,764 Running model_3
+2024-06-05 17:09:22,422 model_3 took 37.7s (3 recycles) with pLDDT 50.1, ptmscore 0.393 and iptm 0.156
+2024-06-05 17:11:30,066 Running model_4
+2024-06-05 17:11:49,933 model_4 took 19.9s (3 recycles) with pLDDT 51, ptmscore 0.358 and iptm 0.0779
+2024-06-05 17:11:53,263 Running model_5
+2024-06-05 17:12:13,033 model_5 took 19.8s (3 recycles) with pLDDT 53.8, ptmscore 0.365 and iptm 0.0859
+2024-06-05 17:12:16,302 Running model_1
+2024-06-05 17:12:36,086 model_1 took 19.8s (3 recycles) with pLDDT 50.9, ptmscore 0.37 and iptm 0.102
+2024-06-05 17:12:39,278 Running model_2
+2024-06-05 17:12:59,075 model_2 took 19.8s (3 recycles) with pLDDT 48.5, ptmscore 0.374 and iptm 0.124
+2024-06-05 17:13:02,189 reranking models by multimer
+2024-06-05 17:13:04,612 Done
