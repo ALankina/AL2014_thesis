@@ -1,0 +1,19 @@
+2024-06-10 20:33:38,598 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-10 20:34:03,692 non-fasta/a3m file in input directory: error
+2024-06-10 20:34:03,694 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-10 20:34:03,694 non-fasta/a3m file in input directory: out
+2024-06-10 20:34:03,695 non-fasta/a3m file in input directory: run.sh
+2024-06-10 20:35:01,076 Found 5 citations for tools or databases
+2024-06-10 20:35:26,419 Query 1/1: Merlin_monomer (length 907)
+2024-06-10 20:35:29,235 Running model_3
+2024-06-10 20:53:38,159 model_3 took 1082.9s (3 recycles) with pLDDT 68.8 and ptmscore 0.473
+2024-06-10 21:02:25,971 Running model_4
+2024-06-10 21:19:21,986 model_4 took 1013.8s (3 recycles) with pLDDT 68.1 and ptmscore 0.517
+2024-06-10 21:19:36,453 Running model_5
+2024-06-10 21:36:33,039 model_5 took 1014.6s (3 recycles) with pLDDT 68.1 and ptmscore 0.476
+2024-06-10 21:36:47,650 Running model_1
+2024-06-10 21:53:46,627 model_1 took 1016.6s (3 recycles) with pLDDT 68.6 and ptmscore 0.49
+2024-06-10 21:54:00,909 Running model_2
+2024-06-10 22:10:59,479 model_2 took 1016.5s (3 recycles) with pLDDT 68.4 and ptmscore 0.46
+2024-06-10 22:11:14,749 reranking models by plddt
+2024-06-10 22:11:22,020 Done
