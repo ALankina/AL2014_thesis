@@ -1,0 +1,124 @@
+IQ-TREE multicore version 1.6.11 for Linux 64-bit built Jun  6 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    92355f672ec4 (AVX2, FMA3, 125 GB RAM)
+Command: /usr/local/iqtree/bin/iqtree -s /tmp/IQTREE/KMvxPN6wTe/seqin.fst -st AA -pre /tmp/IQTREE/KMvxPN6wTe/iqt -m WAG+G8+FO -wsr -bb 1000 -wbt -pers 0.5 -numstop 100
+Seed:    603197 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon May 20 09:39:26 2024
+Kernel:  AVX+FMA - 1 threads (24 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 24 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file /tmp/IQTREE/KMvxPN6wTe/seqin.fst ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 4 sequences with 50 columns, 38 distinct patterns
+3 parsimony-informative, 22 singleton sites, 25 constant sites
+                          Gap/Ambiguity  Composition  p-value
+   1  HumanCMV_gB_AY446894.2      0.00%    passed    100.00%
+   2  RhesusCMV_gB_MZ517254.1     0.00%    passed     99.96%
+   3  GuineaCMV_gB_NC_020231.1    0.00%    passed     99.95%
+   4  MurineCMV_gB_NC_075725.1    0.00%    passed     98.17%
+****  TOTAL                       0.00%  0 sequences failed composition chi2 test (p-value<5%; df=17)
+NOTE: State(s) C, W not present in alignment and thus removed from Markov process to prevent numerical problems
+NOTE: 2 states (see above) are not present and thus removed from Markov process to prevent numerical problems
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 603197)...
+
+NOTE: 0 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -317.643
+2. Current log-likelihood: -311.519
+Optimal log-likelihood: -311.507
+Gamma shape alpha: 0.698
+Parameters optimization took 2 rounds (0.080 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+Computing ML distances based on estimated model parameters... 0.006 sec
+Computing BIONJ tree...
+0.000 seconds
+Log-likelihood of BIONJ tree: -311.507
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.006 second
+Computing log-likelihood of 2 initial trees ... 0.001 seconds
+Current best score: -311.507
+
+Do NNI search on 3 best initial trees
+Finish initializing candidate tree set (3)
+Current best tree score: -311.507 / CPU time: 0.018
+Number of iterations: 3
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -311.507
+Iteration 10 / LogL: -312.674 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -311.507
+UPDATE BEST LOG-LIKELIHOOD: -311.507
+UPDATE BEST LOG-LIKELIHOOD: -311.507
+Iteration 20 / LogL: -311.536 / Time: 0h:0m:0s
+Iteration 30 / LogL: -311.507 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 40 / LogL: -311.531 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 50 / LogL: -312.674 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -312.826
+UFBoot trees printed to /tmp/IQTREE/KMvxPN6wTe/iqt.ufboot
+Iteration 60 / LogL: -311.531 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -311.507 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -312.674 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -312.674 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 100 / LogL: -311.536 / Time: 0h:0m:0s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -312.826
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.998
+UFBoot trees printed to /tmp/IQTREE/KMvxPN6wTe/iqt.ufboot
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -311.507
+Optimal log-likelihood: -311.507
+Gamma shape alpha: 0.694
+Parameters optimization took 1 rounds (0.030 sec)
+
+WARNING: Estimated model parameters are at boundary that can cause numerical instability!
+
+BEST SCORE FOUND : -311.507
+Empirical proportions for each category: 0.500 0.000 0.000 0.000 0.080 0.140 0.080 0.200
+Site rates printed to /tmp/IQTREE/KMvxPN6wTe/iqt.rate
+Creating bootstrap support values...
+Split supports printed to NEXUS file /tmp/IQTREE/KMvxPN6wTe/iqt.splits.nex
+Total tree length: 1.183
+
+Total number of iterations: 101
+CPU time used for tree search: 0.404 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.412 sec (0h:0m:0s)
+Total CPU time used: 0.535 sec (0h:0m:0s)
+Total wall-clock time used: 0.544 sec (0h:0m:0s)
+UFBoot trees printed to /tmp/IQTREE/KMvxPN6wTe/iqt.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /tmp/IQTREE/KMvxPN6wTe/iqt.splits.nex...
+4 taxa and 7 splits.
+Consensus tree written to /tmp/IQTREE/KMvxPN6wTe/iqt.contree
+Reading input trees file /tmp/IQTREE/KMvxPN6wTe/iqt.contree
+Log-likelihood of consensus tree: -311.507
+
+Analysis results written to: 
+  IQ-TREE report:                /tmp/IQTREE/KMvxPN6wTe/iqt.iqtree
+  Maximum-likelihood tree:       /tmp/IQTREE/KMvxPN6wTe/iqt.treefile
+  Likelihood distances:          /tmp/IQTREE/KMvxPN6wTe/iqt.mldist
+  Site-specific rates:           /tmp/IQTREE/KMvxPN6wTe/iqt.rate
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /tmp/IQTREE/KMvxPN6wTe/iqt.splits.nex
+  Consensus tree:                /tmp/IQTREE/KMvxPN6wTe/iqt.contree
+  UFBoot trees:                  /tmp/IQTREE/KMvxPN6wTe/iqt.ufboot
+  Screen log file:               /tmp/IQTREE/KMvxPN6wTe/iqt.log
+
+Date and Time: Mon May 20 09:39:27 2024

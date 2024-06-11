@@ -1,0 +1,133 @@
+IQ-TREE 1.6.12 built Aug 15 2019
+
+Input file name: gB_4HHV_HVS_Nov22.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 667938
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Lam-Tung Nguyen, Heiko A. Schmidt, Arndt von Haeseler, and Bui Quang Minh
+(2015) IQ-TREE: A fast and effective stochastic algorithm for estimating
+maximum likelihood phylogenies. Mol Biol Evol, 32:268-274.
+https://doi.org/10.1093/molbev/msu300
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2017) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol Biol Evol, in press.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 5 sequences with 1014 amino-acid sites
+Number of constant sites: 185 (= 18.2446% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 185 (= 18.2446% of all sites)
+Number of parsimony informative sites: 188
+Number of distinct site patterns: 890
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: WAG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0740
+  pi(R) = 0.0644
+  pi(N) = 0.0531
+  pi(D) = 0.0488
+  pi(C) = 0.0145
+  pi(Q) = 0.0388
+  pi(E) = 0.0563
+  pi(G) = 0.0581
+  pi(H) = 0.0220
+  pi(I) = 0.0504
+  pi(L) = 0.0765
+  pi(K) = 0.0445
+  pi(M) = 0.0227
+  pi(F) = 0.0438
+  pi(P) = 0.0449
+  pi(S) = 0.0758
+  pi(T) = 0.0828
+  pi(W) = 0.0098
+  pi(Y) = 0.0440
+  pi(V) = 0.0749
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 3.0974
+
+ Category  Relative_rate  Proportion
+  1         0.3967         0.2500
+  2         0.7368         0.2500
+  3         1.0830         0.2500
+  4         1.7836         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10426.1553 (s.e. 125.7887)
+Unconstrained log-likelihood (without tree): -6768.4273
+Number of free parameters (#branches + #model parameters): 27
+Akaike information criterion (AIC) score: 20906.3106
+Corrected Akaike information criterion (AICc) score: 20907.8441
+Bayesian information criterion (BIC) score: 21039.1954
+
+Total tree length (sum of branch lengths): 4.2654
+Sum of internal branch lengths: 1.2842 (30.1072% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'sp_P06437_GB_HHV1K' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++-------------sp_P06437_GB_HHV1K
+|
++--------------sp_Q4JR05_GB_VZVO
+|
+|                          +-------------------------sp_P13201_GB_HCMVT
++--------------------------| (100/100)
+                           |          +--------------------gB_HVS15.1
+                           +----------| (100/100)
+                                      +-----------sp_P03188_GB_EBVB9
+
+Tree in newick format:
+
+(sp_P06437_GB_HHV1K:0.4691458784,sp_Q4JR05_GB_VZVO:0.5128232453,(sp_P13201_GB_HCMVT:0.8696985336,(gB_HVS15.1:0.7035116198,sp_P03188_GB_EBVB9:0.4260049647)100/100:0.3829014684)100/100:0.9012794312);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000bootstrap trees
+Log-likelihood of consensus tree: -10426.155296
+Robinson-Foulds distance between ML tree and consensus tree: 0
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++-------------sp_P06437_GB_HHV1K
+|
++--------------sp_Q4JR05_GB_VZVO
+|
+|                          +-------------------------sp_P13201_GB_HCMVT
++--------------------------| (100)
+                           |          +--------------------gB_HVS15.1
+                           +----------| (100)
+                                      +-----------sp_P03188_GB_EBVB9
+
+
+Consensus tree in newick format: 
+
+(sp_P06437_GB_HHV1K:0.4694145363,sp_Q4JR05_GB_VZVO:0.5126815457,(sp_P13201_GB_HCMVT:0.8696656409,(gB_HVS15.1:0.7035041090,sp_P03188_GB_EBVB9:0.4260185442)100:0.3830820879)100:0.9012086075);
+
+TIME STAMP
+----------
+
+Date and time: Mon Mar 13 15:34:05 2023
+Total CPU time used: 5.236 seconds (0h:0m:5s)
+Total wall-clock time used: 6.089439154 seconds (0h:0m:6s)
+

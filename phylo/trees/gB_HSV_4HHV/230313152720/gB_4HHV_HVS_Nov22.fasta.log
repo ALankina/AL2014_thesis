@@ -1,0 +1,127 @@
+IQ-TREE multicore version 1.6.12 for Linux 64-bit built Aug 15 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    fermat (AVX2, FMA3, 1009 GB RAM)
+Command: ../../iqtree -s gB_4HHV_HVS_Nov22.fasta -st AA -m WAG+G4+F -bb 1000 -wbt -alrt 1000
+Seed:    667938 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Mar 13 15:33:59 2023
+Kernel:  AVX+FMA - 1 threads (128 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 128 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file gB_4HHV_HVS_Nov22.fasta ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 5 sequences with 1014 columns, 890 distinct patterns
+188 parsimony-informative, 641 singleton sites, 185 constant sites
+WARNING: Some sequence names are changed as follows:
+sp|P06437|GB_HHV1K -> sp_P06437_GB_HHV1K
+sp|Q4JR05|GB_VZVO -> sp_Q4JR05_GB_VZVO
+sp|P13201|GB_HCMVT -> sp_P13201_GB_HCMVT
+sp|P03188|GB_EBVB9 -> sp_P03188_GB_EBVB9
+
+                    Gap/Ambiguity  Composition  p-value
+   1  sp_P06437_GB_HHV1K   10.85%    failed      0.18%
+   2  sp_Q4JR05_GB_VZVO     8.19%    passed     99.80%
+   3  sp_P13201_GB_HCMVT   10.55%    passed     60.95%
+   4  gB_HVS15.1           20.32%    passed     10.80%
+   5  sp_P03188_GB_EBVB9   15.48%    passed     87.03%
+****  TOTAL                13.08%  1 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+Generating 1000 samples for ultrafast bootstrap (seed: 667938)...
+
+NOTE: 6 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -10523.151
+2. Current log-likelihood: -10443.751
+3. Current log-likelihood: -10428.638
+4. Current log-likelihood: -10426.436
+5. Current log-likelihood: -10426.184
+Optimal log-likelihood: -10426.156
+Gamma shape alpha: 3.084
+Parameters optimization took 5 rounds (0.157 sec)
+Computing ML distances based on estimated model parameters... 0.008 sec
+Computing BIONJ tree...
+0.052 seconds
+Log-likelihood of BIONJ tree: -10426.156
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 99 parsimony trees... 0.032 second
+Computing log-likelihood of 4 initial trees ... 0.042 seconds
+Current best score: -10426.156
+
+Do NNI search on 5 best initial trees
+Finish initializing candidate tree set (5)
+Current best tree score: -10426.156 / CPU time: 0.387
+Number of iterations: 5
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -10426.156
+Iteration 10 / LogL: -10427.681 / Time: 0h:0m:1s
+UPDATE BEST LOG-LIKELIHOOD: -10426.156
+Iteration 20 / LogL: -10426.994 / Time: 0h:0m:1s
+UPDATE BEST LOG-LIKELIHOOD: -10426.156
+Iteration 30 / LogL: -10426.771 / Time: 0h:0m:2s (0h:0m:5s left)
+Iteration 40 / LogL: -10427.528 / Time: 0h:0m:2s (0h:0m:4s left)
+UPDATE BEST LOG-LIKELIHOOD: -10426.156
+Iteration 50 / LogL: -10426.156 / Time: 0h:0m:3s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -10428.250
+UFBoot trees printed to gB_4HHV_HVS_Nov22.fasta.ufboot
+Iteration 60 / LogL: -10427.681 / Time: 0h:0m:3s (0h:0m:2s left)
+UPDATE BEST LOG-LIKELIHOOD: -10426.156
+Iteration 70 / LogL: -10427.514 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 80 / LogL: -10426.257 / Time: 0h:0m:4s (0h:0m:1s left)
+Iteration 90 / LogL: -10426.977 / Time: 0h:0m:5s (0h:0m:0s left)
+Iteration 100 / LogL: -10426.977 / Time: 0h:0m:5s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -10428.250
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 1.000
+UFBoot trees printed to gB_4HHV_HVS_Nov22.fasta.ufboot
+TREE SEARCH COMPLETED AFTER 101 ITERATIONS / Time: 0h:0m:5s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -10426.156
+Optimal log-likelihood: -10426.155
+Gamma shape alpha: 3.097
+Parameters optimization took 1 rounds (0.016 sec)
+BEST SCORE FOUND : -10426.155
+
+Testing tree branches by SH-like aLRT with 1000 replicates...
+0.066 sec.
+Creating bootstrap support values...
+Split supports printed to NEXUS file gB_4HHV_HVS_Nov22.fasta.splits.nex
+Total tree length: 4.265
+
+Total number of iterations: 101
+CPU time used for tree search: 4.940 sec (0h:0m:4s)
+Wall-clock time used for tree search: 5.309 sec (0h:0m:5s)
+Total CPU time used: 5.236 sec (0h:0m:5s)
+Total wall-clock time used: 5.871 sec (0h:0m:5s)
+UFBoot trees printed to gB_4HHV_HVS_Nov22.fasta.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file gB_4HHV_HVS_Nov22.fasta.splits.nex...
+5 taxa and 7 splits.
+Consensus tree written to gB_4HHV_HVS_Nov22.fasta.contree
+Reading input trees file gB_4HHV_HVS_Nov22.fasta.contree
+Log-likelihood of consensus tree: -10426.155
+
+Analysis results written to: 
+  IQ-TREE report:                gB_4HHV_HVS_Nov22.fasta.iqtree
+  Maximum-likelihood tree:       gB_4HHV_HVS_Nov22.fasta.treefile
+  Likelihood distances:          gB_4HHV_HVS_Nov22.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          gB_4HHV_HVS_Nov22.fasta.splits.nex
+  Consensus tree:                gB_4HHV_HVS_Nov22.fasta.contree
+  UFBoot trees:                  gB_4HHV_HVS_Nov22.fasta.ufboot
+  Screen log file:               gB_4HHV_HVS_Nov22.fasta.log
+
+Date and Time: Mon Mar 13 15:34:06 2023

@@ -1,0 +1,25 @@
+#nexus
+
+BEGIN Taxa;
+DIMENSIONS ntax=4;
+TAXLABELS
+[1] 'HumanCMV_gB_AY446894.2'
+[2] 'GuineaCMV_gB_NC_020231.1'
+[3] 'MurineCMV_gB_NC_075725.1'
+[4] 'RhesusCMV_gB_MZ517254.1'
+;
+END; [Taxa]
+
+BEGIN Splits;
+DIMENSIONS ntax=4 nsplits=6;
+FORMAT labels=no weights=yes confidences=no intervals=no;
+MATRIX
+	100	 2,
+	100	 3,
+	100	 1 4,
+	100	 4,
+	100	 1,
+	0	 1 2,
+;
+END; [Splits]
+
