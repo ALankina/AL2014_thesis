@@ -1,0 +1,104 @@
+2024-06-11 19:13:10,600 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-11 19:13:55,534 non-fasta/a3m file in input directory: error
+2024-06-11 19:13:55,543 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-11 19:13:55,543 non-fasta/a3m file in input directory: out
+2024-06-11 19:13:55,543 non-fasta/a3m file in input directory: run.sh
+2024-06-11 19:13:55,543 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-11 19:16:16,935 Found 5 citations for tools or databases
+2024-06-11 19:17:16,185 Query 1/1: CD13_wholegB (length 1874)
+2024-06-11 19:17:24,135 Sleeping for 6s. Reason: PENDING
+2024-06-11 19:17:33,019 Sleeping for 10s. Reason: RUNNING
+2024-06-11 19:17:49,824 Timeout while fetching status from MSA server. Retrying...
+2024-06-11 19:17:53,411 Sleeping for 9s. Reason: RUNNING
+2024-06-11 19:18:05,524 Sleeping for 8s. Reason: RUNNING
+2024-06-11 19:18:20,481 Timeout while fetching status from MSA server. Retrying...
+2024-06-11 19:18:35,514 Timeout while fetching status from MSA server. Retrying...
+2024-06-11 19:18:38,204 Sleeping for 5s. Reason: RUNNING
+2024-06-11 19:18:53,166 Timeout while fetching status from MSA server. Retrying...
+2024-06-11 19:18:56,991 Sleeping for 7s. Reason: RUNNING
+2024-06-11 19:19:11,729 Timeout while fetching status from MSA server. Retrying...
+2024-06-11 19:19:14,983 Sleeping for 10s. Reason: RUNNING
+2024-06-11 19:19:28,302 Sleeping for 7s. Reason: RUNNING
+2024-06-11 19:19:38,534 Sleeping for 10s. Reason: RUNNING
+2024-06-11 19:19:51,849 Sleeping for 10s. Reason: RUNNING
+2024-06-11 19:20:14,335 Timeout while fetching result from MSA server. Retrying...
+2024-06-11 19:20:21,279 Timeout while fetching result from MSA server. Retrying...
+2024-06-11 19:20:29,030 Timeout while fetching result from MSA server. Retrying...
+2024-06-11 19:21:07,112 Could not get MSA/templates for CD13_wholegB: HTTPSConnectionPool(host='api.colabfold.com', port=443): Read timed out.
+Traceback (most recent call last):
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 443, in _error_catcher
+    yield
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 818, in read_chunked
+    chunk = self._handle_chunk(amt)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 771, in _handle_chunk
+    returned_chunk = self._fp._safe_read(self.chunk_left)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/http/client.py", line 628, in _safe_read
+    chunk = self.fp.read(min(amt, MAXAMOUNT))
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/socket.py", line 589, in readinto
+    return self._sock.recv_into(b)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/ssl.py", line 1071, in recv_into
+    return self.read(nbytes, buffer)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/ssl.py", line 929, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/models.py", line 816, in generate
+    yield from self.raw.stream(chunk_size, decode_content=True)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 623, in stream
+    for line in self.read_chunked(amt, decode_content=decode_content):
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 844, in read_chunked
+    self._original_response.close()
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/urllib3/response.py", line 448, in _error_catcher
+    raise ReadTimeoutError(self._pool, None, "Read timed out.")
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.colabfold.com', port=443): Read timed out.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/colabfold/batch.py", line 1361, in run
+    host_url,
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/colabfold/batch.py", line 827, in get_msa_and_templates
+    host_url=host_url,
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/colabfold/colabfold.py", line 202, in run_mmseqs2
+    download(ID, tar_gz_file)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/colabfold/colabfold.py", line 115, in download
+    res = requests.get(f'{host_url}/result/download/{ID}', timeout=6.02)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/sessions.py", line 745, in send
+    r.content
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/models.py", line 899, in content
+    self._content = b"".join(self.iter_content(CONTENT_CHUNK_SIZE)) or b""
+  File "/home/alankina/.conda/envs/cfold/lib/python3.7/site-packages/requests/models.py", line 822, in generate
+    raise ConnectionError(e)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.colabfold.com', port=443): Read timed out.
+2024-06-11 19:21:07,966 Done
+2024-06-12 16:50:09,651 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-12 16:57:55,843 non-fasta/a3m file in input directory: error
+2024-06-12 16:57:56,244 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-12 16:57:56,244 non-fasta/a3m file in input directory: out
+2024-06-12 16:57:56,244 non-fasta/a3m file in input directory: run.sh
+2024-06-12 16:57:56,244 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-12 17:28:42,914 Found 5 citations for tools or databases
+2024-06-12 17:33:14,712 Query 1/1: AD6_5 (length 250)
+2024-06-12 17:33:20,999 Running model_3
+2024-06-12 17:35:18,732 model_3 took 117.7s (3 recycles) with pLDDT 26.3, ptmscore 0.154 and iptm 0.0782
+2024-06-12 17:36:50,430 Running model_4
+2024-06-12 17:37:35,168 model_4 took 44.4s (3 recycles) with pLDDT 26.3, ptmscore 0.164 and iptm 0.0975
+2024-06-12 17:37:40,839 Running model_5
+2024-06-12 17:38:25,245 model_5 took 44.4s (3 recycles) with pLDDT 26.2, ptmscore 0.149 and iptm 0.0754
+2024-06-12 17:38:30,477 Running model_1
+2024-06-12 17:39:15,115 model_1 took 44.5s (3 recycles) with pLDDT 25.4, ptmscore 0.137 and iptm 0.0601
+2024-06-12 17:39:20,123 Running model_2
+2024-06-12 17:40:04,703 model_2 took 44.6s (3 recycles) with pLDDT 27.1, ptmscore 0.14 and iptm 0.0653
+2024-06-12 17:40:11,529 reranking models by multimer
+2024-06-12 17:40:30,306 Done

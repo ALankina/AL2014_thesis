@@ -1,0 +1,20 @@
+2024-06-12 18:36:42,581 Running colabfold 1.3.0 (10b425d76c743eb3ece8b3dc68e117d0b2a89a16)
+2024-06-12 18:41:12,316 non-fasta/a3m file in input directory: error
+2024-06-12 18:41:12,317 non-fasta/a3m file in input directory: make_colabfold_qsub_script.sh
+2024-06-12 18:41:12,317 non-fasta/a3m file in input directory: out
+2024-06-12 18:41:12,317 non-fasta/a3m file in input directory: run.sh
+2024-06-12 18:41:12,318 --max-msa can not be used in combination with AlphaFold2-multimer (--max-msa ignored)
+2024-06-12 18:52:04,304 Found 5 citations for tools or databases
+2024-06-12 18:55:03,145 Query 1/1: AD6_8 (length 400)
+2024-06-12 18:55:08,453 Running model_3
+2024-06-12 18:55:57,276 model_3 took 48.8s (3 recycles) with pLDDT 27.3, ptmscore 0.146 and iptm 0.0855
+2024-06-12 18:57:54,954 Running model_4
+2024-06-12 18:58:10,070 model_4 took 15.1s (3 recycles) with pLDDT 26, ptmscore 0.134 and iptm 0.082
+2024-06-12 18:58:12,734 Running model_5
+2024-06-12 18:58:27,809 model_5 took 15.1s (3 recycles) with pLDDT 25.7, ptmscore 0.138 and iptm 0.085
+2024-06-12 18:58:30,802 Running model_1
+2024-06-12 18:58:45,876 model_1 took 15.1s (3 recycles) with pLDDT 25.4, ptmscore 0.126 and iptm 0.0716
+2024-06-12 18:58:49,646 Running model_2
+2024-06-12 18:59:04,750 model_2 took 15.1s (3 recycles) with pLDDT 27.2, ptmscore 0.126 and iptm 0.073
+2024-06-12 18:59:09,441 reranking models by multimer
+2024-06-12 18:59:13,061 Done
