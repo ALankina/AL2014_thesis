@@ -27,7 +27,7 @@ def make_graph(xs, ys, threshold):
 
 
 def main():
-    filename = "./epitope_match/gB_bcell_prediction_score.csv"
+    filename = "./epitope_match/VZV_gB_IEDB_score.csv"
     threshold = 0.5
     xs, ys = read_results(filename)
     make_graph(xs, ys, threshold)
