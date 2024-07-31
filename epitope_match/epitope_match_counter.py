@@ -22,6 +22,6 @@ with open(FASTA_FILE,'r') as f:
     plt.xlabel('Amino Acid Position')
     plt.ylabel('Number of Overlapping Epitopes')
     plt.title('Overlap of Epitopes per Amino Acid Residue (MHC)')
-    plt.savefig('./epitope_match/B_epitopes.png', bbox_inches='tight')
+    plt.savefig('./epitope_match/MHC_epitopes.png', bbox_inches='tight')
     plt.show()
 
