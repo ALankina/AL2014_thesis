@@ -22,12 +22,13 @@ def make_graph(xs, ys, threshold):
     ax.fill_between(xs, ys, threshold, where=ys < threshold, color="green")
     # Midline
     plt.axhline(threshold, color="black")
-    plt.xticks(np.arange(0, max(xs), 50))
+    plt.xticks(np.arange(min(xs), max(xs), 10))
+    plt.yticks(np.arange(min(ys), max(ys), 0.02))
     plt.show()
 
 
 def main():
-    filename = "./epitope_match/VZV_gB_IEDB_score.csv"
+    filename = "./epitope_match/EBV_ad6_IEDB.csv"
     threshold = 0.5
     xs, ys = read_results(filename)
     make_graph(xs, ys, threshold)
